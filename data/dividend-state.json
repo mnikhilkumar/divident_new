@@ -1,16 +1,5 @@
 {
   "companies": {
-    "532514|01 Oct 2026|Final Dividend - Rs. - 1.5000": {
-      "scrip_code": "532514",
-      "short_name": "IGL",
-      "long_name": "Indraprastha Gas Ltd",
-      "record_date": "01-Oct-2026",
-      "purpose": "Final Dividend - Rs. - 1.5000",
-      "dividend_per_share": 1.5,
-      "latest_price": 145.05,
-      "dividend_yield": 1.03,
-      "first_seen": "20-Sep-2026 07:34:15 am"
-    },
     "526371|05 Oct 2026|Final Dividend - Rs. - 1.0000": {
       "scrip_code": "526371",
       "short_name": "NMDC",
@@ -65,29 +54,7 @@
       "latest_price": 13.3,
       "dividend_yield": 3.76,
       "first_seen": "24-Sep-2026 03:06:23 pm"
-    },
-    "530265|01 Oct 2026|Interim Dividend - Rs. - 0.5000": {
-      "scrip_code": "530265",
-      "short_name": "SAINIK",
-      "long_name": "Sainik Finance & Industries Ltd",
-      "record_date": "01-Oct-2026",
-      "purpose": "Interim Dividend - Rs. - 0.5000",
-      "dividend_per_share": 0.5,
-      "latest_price": 38.88,
-      "dividend_yield": 1.29,
-      "first_seen": "24-Sep-2026 03:06:23 pm"
-    },
-    "532735|01 Oct 2026|Interim Dividend - Rs. - 8.0000": {
-      "scrip_code": "532735",
-      "short_name": "RSYSTEMS",
-      "long_name": "R Systems International Ltd",
-      "record_date": "01-Oct-2026",
-      "purpose": "Interim Dividend - Rs. - 8.0000",
-      "dividend_per_share": 8,
-      "latest_price": 235.7,
-      "dividend_yield": 3.39,
-      "first_seen": "26-Sep-2026 01:09:34 am"
     }
   },
-  "last_checked": "01-Oct-2026 11:19:41 pm"
+  "last_checked": "02-Oct-2026 02:25:36 am"
 }
