@@ -43,18 +43,7 @@
       "latest_price": 2083.95,
       "dividend_yield": 0,
       "first_seen": "22-Sep-2026 04:40:12 pm"
-    },
-    "538787|02 Oct 2026|Final Dividend - Rs. - 0.5000": {
-      "scrip_code": "538787",
-      "short_name": "GBFL",
-      "long_name": "Goenka Business & Finance Ltd",
-      "record_date": "02-Oct-2026",
-      "purpose": "Final Dividend - Rs. - 0.5000",
-      "dividend_per_share": 0.5,
-      "latest_price": 13.3,
-      "dividend_yield": 3.76,
-      "first_seen": "24-Sep-2026 03:06:23 pm"
     }
   },
-  "last_checked": "02-Oct-2026 11:55:51 pm"
+  "last_checked": "03-Oct-2026 03:46:12 am"
 }
