@@ -1,16 +1,5 @@
 {
   "companies": {
-    "526371|05 Oct 2026|Final Dividend - Rs. - 1.0000": {
-      "scrip_code": "526371",
-      "short_name": "NMDC",
-      "long_name": "NMDC Ltd",
-      "record_date": "05-Oct-2026",
-      "purpose": "Final Dividend - Rs. - 1.0000",
-      "dividend_per_share": 1,
-      "latest_price": 75,
-      "dividend_yield": 1.33,
-      "first_seen": "20-Sep-2026 07:34:15 am"
-    },
     "532524|07 Oct 2026|Final Dividend - Rs. - 5.5000": {
       "scrip_code": "532524",
       "short_name": "PTC",
@@ -67,5 +56,5 @@
       "first_seen": "04-Oct-2026 06:09:37 am"
     }
   },
-  "last_checked": "05-Oct-2026 06:43:00 pm"
+  "last_checked": "06-Oct-2026 12:34:06 am"
 }
