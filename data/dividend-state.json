@@ -1,16 +1,5 @@
 {
   "companies": {
-    "532524|07 Oct 2026|Final Dividend - Rs. - 5.5000": {
-      "scrip_code": "532524",
-      "short_name": "PTC",
-      "long_name": "PTC India Ltd",
-      "record_date": "07-Oct-2026",
-      "purpose": "Final Dividend - Rs. - 5.5000",
-      "dividend_per_share": 5.5,
-      "latest_price": 154.85,
-      "dividend_yield": 3.55,
-      "first_seen": "20-Sep-2026 07:34:15 am"
-    },
     "544890|09 Oct 2026|Interim Dividend - Rs. - 0.2500": {
       "scrip_code": "544890",
       "short_name": "SKYWAYS",
@@ -56,5 +45,5 @@
       "first_seen": "04-Oct-2026 06:09:37 am"
     }
   },
-  "last_checked": "07-Oct-2026 10:37:32 pm"
+  "last_checked": "08-Oct-2026 02:27:05 am"
 }
