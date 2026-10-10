@@ -1,16 +1,5 @@
 {
   "companies": {
-    "544890|09 Oct 2026|Interim Dividend - Rs. - 0.2500": {
-      "scrip_code": "544890",
-      "short_name": "SKYWAYS",
-      "long_name": "Skyways Air Services Ltd",
-      "record_date": "09-Oct-2026",
-      "purpose": "Interim Dividend - Rs. - 0.2500",
-      "dividend_per_share": 0.25,
-      "latest_price": 110.4,
-      "dividend_yield": 0.23,
-      "first_seen": "20-Sep-2026 07:34:15 am"
-    },
     "532540|14 Oct 2026|Interim Dividend": {
       "scrip_code": "532540",
       "short_name": "TCS",
@@ -21,29 +10,7 @@
       "latest_price": 2079.3,
       "dividend_yield": 0,
       "first_seen": "22-Sep-2026 04:40:12 pm"
-    },
-    "532268|09 Oct 2026|Final Dividend - Rs. - 35.0000": {
-      "scrip_code": "532268",
-      "short_name": "ACCELYA",
-      "long_name": "Accelya Solutions India Ltd",
-      "record_date": "09-Oct-2026",
-      "purpose": "Final Dividend - Rs. - 35.0000",
-      "dividend_per_share": 35,
-      "latest_price": 1096.3,
-      "dividend_yield": 3.19,
-      "first_seen": "04-Oct-2026 06:09:37 am"
-    },
-    "534732|09 Oct 2026|Final Dividend - Rs. - 0.5000": {
-      "scrip_code": "534732",
-      "short_name": "CASPIAN",
-      "long_name": "Caspian Corporate Services Ltd",
-      "record_date": "09-Oct-2026",
-      "purpose": "Final Dividend - Rs. - 0.5000",
-      "dividend_per_share": 0.5,
-      "latest_price": 33.86,
-      "dividend_yield": 1.48,
-      "first_seen": "04-Oct-2026 06:09:37 am"
     }
   },
-  "last_checked": "09-Oct-2026 08:15:59 pm"
+  "last_checked": "10-Oct-2026 12:11:59 am"
 }
