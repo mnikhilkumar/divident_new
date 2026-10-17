@@ -181,22 +181,38 @@ async function fetchBseQuote(scripcode) {
     }
   });
 
-  const text = await response.text();
-  if (!response.ok) return null;
+const text = await response.text();
 
-  try {
-    const json = JSON.parse(text);
-    const price = findPriceDeep(json);
-    if (price !== null) return price;
-  } catch {}
+if (!response.ok) {
+  console.error('BSE API request failed:', {
+    status: response.status,
+    url: response.url || targetUrl,
+    contentType: response.headers.get('content-type'),
+    body: text.slice(0, 500)
+  });
 
-  const textMatch = text.match(/(?:LTP|Last\s*Price|Last\s*Traded\s*Price|Current\s*Rate)[^0-9]{0,50}([0-9]+(?:,[0-9]{3})*(?:\.[0-9]+)?)/i);
-  if (textMatch) {
-    const price = Number(textMatch[1].replace(/,/g, ''));
-    if (Number.isFinite(price) && price > 0) return price;
-  }
+  throw new Error(
+    `BSE API returned HTTP ${response.status}: ${text.slice(0, 180)}`
+  );
+}
 
-  return null;
+if (isHtmlResponse(text)) {
+  throw new Error(
+    `BSE returned HTML instead of JSON: ${text.slice(0, 180)}`
+  );
+}
+
+const parsed = fromJson(text);
+
+if (parsed.length === 0) {
+  console.warn('BSE response contained no recognized dividend rows.');
+}
+
+return {
+  status: response.status,
+  url: response.url || targetUrl,
+  text
+};
 }
 
 async function fetchYahooQuote(symbol) {

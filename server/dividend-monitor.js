@@ -95,7 +95,7 @@ function yieldText(value) {
 
 function buildTelegramMessage(company, checkedAt) {
   return [
-    '📢 NEW BSE DIVIDEND',
+    '📢 NEW BSE DIVIDEND_new',
     '',
     `🏢 ${company.long_name || '-'}`,
     `🔹 Symbol: ${company.short_name || '-'}`,
