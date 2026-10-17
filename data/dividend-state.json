@@ -40,8 +40,12 @@
       "record_date": "21-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 30.0000",
       "dividend_per_share": 30,
-      "latest_price": 2811.75,
-      "dividend_yield": 1.07,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=544658&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"2811.75\",\"Chg\":\"-25.40\",\"PcChg\":\"-0.90\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"ICICI Prudential Asset Management Company Ltd\",\"ShortN\":\"iciciamc\",\"SeriesN\":\"ICICI Prudential Asset Management Company Ltd\",\"SEOUrlEQ\":\"/stock-share-price/icici-prudential-asset-management-company-ltd/iciciamc/544658/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/544658/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"544658\"},\"Header\":{\"Noticecnt\":\"13\",\"PrevClose\":\"2837.15\",\"Open\":\"2857.20\",\"High\":\"2888.00\",\"Low\":\"2802.00\",\"LTP\":\"2811.75\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "13-Oct-2026 04:58:03 am"
     },
     "500820|04 Nov 2026|Interim Dividend": {
@@ -51,8 +55,12 @@
       "record_date": "04-Nov-2026",
       "purpose": "Interim Dividend",
       "dividend_per_share": null,
-      "latest_price": 2333,
-      "dividend_yield": 0,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=500820&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"2333.00\",\"Chg\":\"-23.50\",\"PcChg\":\"-1.00\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Asian Paints Ltd\",\"ShortN\":\"asianpaint\",\"SeriesN\":\"Asian Paints Ltd\",\"SEOUrlEQ\":\"/stock-share-price/asian-paints-ltd/asianpaint/500820/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/500820/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"500820\"},\"Header\":{\"Noticecnt\":\"0\",\"PrevClose\":\"2356.50\",\"Open\":\"2357.55\",\"High\":\"2364.25\",\"Low\":\"2327.85\",\"LTP\":\"2333.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
     },
     "532424|04 Nov 2026|Interim Dividend": {
@@ -62,8 +70,12 @@
       "record_date": "04-Nov-2026",
       "purpose": "Interim Dividend",
       "dividend_per_share": null,
-      "latest_price": 855.5,
-      "dividend_yield": 0,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=532424&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"855.50\",\"Chg\":\"-9.20\",\"PcChg\":\"-1.06\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Godrej Consumer Products Ltd\",\"ShortN\":\"godrejcp\",\"SeriesN\":\"Godrej Consumer Products Ltd\",\"SEOUrlEQ\":\"/stock-share-price/godrej-consumer-products-ltd/godrejcp/532424/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532424/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532424\"},\"Header\":{\"Noticecnt\":\"1\",\"PrevClose\":\"864.70\",\"Open\":\"860.00\",\"High\":\"860.20\",\"Low\":\"842.75\",\"LTP\":\"855.50\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
     },
     "544262|06 Nov 2026|Interim Dividend": {
@@ -73,8 +85,12 @@
       "record_date": "06-Nov-2026",
       "purpose": "Interim Dividend",
       "dividend_per_share": null,
-      "latest_price": 145.7,
-      "dividend_yield": 0,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=544262&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"145.70\",\"Chg\":\"+5.60\",\"PcChg\":\"+4.00\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Manba Finance Ltd\",\"ShortN\":\"manba\",\"SeriesN\":\"Manba Finance Ltd\",\"SEOUrlEQ\":\"/stock-share-price/manba-finance-ltd/manba/544262/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/544262/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"544262\"},\"Header\":{\"Noticecnt\":\"6\",\"PrevClose\":\"140.10\",\"Open\":\"147.35\",\"High\":\"147.35\",\"Low\":\"140.00\",\"LTP\":\"145.70\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
     },
     "543335|13 Nov 2026|Interim Dividend": {
@@ -84,8 +100,12 @@
       "record_date": "13-Nov-2026",
       "purpose": "Interim Dividend",
       "dividend_per_share": null,
-      "latest_price": 222.15,
-      "dividend_yield": 0,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=543335&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"222.15\",\"Chg\":\"-2.10\",\"PcChg\":\"-0.94\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Aptus Value Housing Finance India Ltd\",\"ShortN\":\"aptus\",\"SeriesN\":\"Aptus Value Housing Finance India Ltd\",\"SEOUrlEQ\":\"/stock-share-price/aptus-value-housing-finance-india-ltd/aptus/543335/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543335/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543335\"},\"Header\":{\"Noticecnt\":\"3\",\"PrevClose\":\"224.25\",\"Open\":\"221.00\",\"High\":\"226.15\",\"Low\":\"219.45\",\"LTP\":\"222.15\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
     },
     "543232|13 Nov 2026|Interim Dividend": {
@@ -95,8 +115,12 @@
       "record_date": "13-Nov-2026",
       "purpose": "Interim Dividend",
       "dividend_per_share": null,
-      "latest_price": 700,
-      "dividend_yield": 0,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=543232&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"700.00\",\"Chg\":\"-4.20\",\"PcChg\":\"-0.60\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Computer Age Management Services Ltd\",\"ShortN\":\"cams\",\"SeriesN\":\"Computer Age Management Services Ltd\",\"SEOUrlEQ\":\"/stock-share-price/computer-age-management-services-ltd/cams/543232/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543232/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543232\"},\"Header\":{\"Noticecnt\":\"3\",\"PrevClose\":\"704.20\",\"Open\":\"708.60\",\"High\":\"714.95\",\"Low\":\"699.40\",\"LTP\":\"700.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
     },
     "505700|21 Oct 2026|Interim Dividend - Rs. - 0.5000": {
@@ -106,8 +130,12 @@
       "record_date": "21-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 0.5000",
       "dividend_per_share": 0.5,
-      "latest_price": 480.65,
-      "dividend_yield": 0.1,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=505700&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"480.65\",\"Chg\":\"-12.25\",\"PcChg\":\"-2.49\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Elecon Engineering Company Ltd\",\"ShortN\":\"elecon\",\"SeriesN\":\"Elecon Engineering Company Ltd\",\"SEOUrlEQ\":\"/stock-share-price/elecon-engineering-company-ltd/elecon/505700/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/505700/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"505700\"},\"Header\":{\"Noticecnt\":\"14\",\"PrevClose\":\"492.90\",\"Open\":\"490.00\",\"High\":\"509.10\",\"Low\":\"476.05\",\"LTP\":\"480.65\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 06:06:34 pm"
     },
     "544429|23 Oct 2026|Interim Dividend - Rs. - 2.0000": {
@@ -117,8 +145,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 2.0000",
       "dividend_per_share": 2,
-      "latest_price": 512.7,
-      "dividend_yield": 0.39,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=544429&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"512.70\",\"Chg\":\"-25.90\",\"PcChg\":\"-4.81\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"HDB Financial Services Ltd\",\"ShortN\":\"hdbfs\",\"SeriesN\":\"HDB Financial Services Ltd\",\"SEOUrlEQ\":\"/stock-share-price/hdb-financial-services-ltd/hdbfs/544429/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/544429/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"544429\"},\"Header\":{\"Noticecnt\":\"14\",\"PrevClose\":\"538.60\",\"Open\":\"538.60\",\"High\":\"540.00\",\"Low\":\"507.00\",\"LTP\":\"512.70\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 06:06:34 pm"
     },
     "540716|23 Oct 2026|Interim Dividend - Rs. - 7.0000": {
@@ -128,8 +160,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 7.0000",
       "dividend_per_share": 7,
-      "latest_price": 1682.7,
-      "dividend_yield": 0.42,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=540716&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"1682.70\",\"Chg\":\"-7.05\",\"PcChg\":\"-0.42\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"ICICI Lombard General Insurance Company Ltd\",\"ShortN\":\"icicigi\",\"SeriesN\":\"ICICI Lombard General Insurance Company Ltd\",\"SEOUrlEQ\":\"/stock-share-price/icici-lombard-general-insurance-company-ltd/icicigi/540716/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/540716/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"540716\"},\"Header\":{\"Noticecnt\":\"10\",\"PrevClose\":\"1689.75\",\"Open\":\"1688.55\",\"High\":\"1700.65\",\"Low\":\"1661.25\",\"LTP\":\"1682.70\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "14-Oct-2026 06:06:34 pm"
     },
     "500109|21 Oct 2026|Interim Dividend - Rs. - 3.0000": {
@@ -139,8 +175,12 @@
       "record_date": "21-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 3.0000",
       "dividend_per_share": 3,
-      "latest_price": 172.8,
-      "dividend_yield": 1.74,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=500109&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"172.80\",\"Chg\":\"-2.05\",\"PcChg\":\"-1.17\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Mangalore Refinery and Petrochemicals Ltd\",\"ShortN\":\"mrpl\",\"SeriesN\":\"Mangalore Refinery and Petrochemicals Ltd\",\"SEOUrlEQ\":\"/stock-share-price/mangalore-refinery-and-petrochemicals-ltd/mrpl/500109/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/500109/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"500109\"},\"Header\":{\"Noticecnt\":\"7\",\"PrevClose\":\"174.85\",\"Open\":\"176.00\",\"High\":\"176.00\",\"Low\":\"169.60\",\"LTP\":\"172.80\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 04:57:31 am"
     },
     "543235|22 Oct 2026|Interim Dividend - Rs. - 1.4000": {
@@ -150,8 +190,12 @@
       "record_date": "22-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 1.4000",
       "dividend_per_share": 1.4,
-      "latest_price": 299.5,
-      "dividend_yield": 0.47,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=543235&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"299.50\",\"Chg\":\"-12.60\",\"PcChg\":\"-4.04\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Angel One Ltd\",\"ShortN\":\"angelone\",\"SeriesN\":\"Angel One Ltd\",\"SEOUrlEQ\":\"/stock-share-price/angel-one-ltd/angelone/543235/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543235/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543235\"},\"Header\":{\"Noticecnt\":\"8\",\"PrevClose\":\"312.10\",\"Open\":\"317.40\",\"High\":\"321.60\",\"Low\":\"298.50\",\"LTP\":\"299.50\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 02:36:15 pm"
     },
     "532375|22 Oct 2026|Interim Dividend - Rs. - 6.5000": {
@@ -161,8 +205,12 @@
       "record_date": "22-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 6.5000",
       "dividend_per_share": 6.5,
-      "latest_price": 744.9,
-      "dividend_yield": 0.87,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=532375&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"744.90\",\"Chg\":\"+62.10\",\"PcChg\":\"+9.09\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Tips Music Ltd\",\"ShortN\":\"tipsmusic\",\"SeriesN\":\"Tips Music Ltd\",\"SEOUrlEQ\":\"/stock-share-price/tips-music-ltd/tipsmusic/532375/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532375/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532375\"},\"Header\":{\"Noticecnt\":\"15\",\"PrevClose\":\"682.80\",\"Open\":\"696.55\",\"High\":\"757.55\",\"Low\":\"691.10\",\"LTP\":\"744.90\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 02:36:15 pm"
     },
     "542772|23 Oct 2026|Interim Dividend - Rs. - 7.5000": {
@@ -172,8 +220,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 7.5000",
       "dividend_per_share": 7.5,
-      "latest_price": 1066.2,
-      "dividend_yield": 0.7,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=542772&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"1066.20\",\"Chg\":\"-5.80\",\"PcChg\":\"-0.54\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"360 ONE WAM LTD\",\"ShortN\":\"360one\",\"SeriesN\":\"360 ONE WAM LTD\",\"SEOUrlEQ\":\"/stock-share-price/360-one-wam-ltd/360one/542772/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/542772/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"542772\"},\"Header\":{\"Noticecnt\":\"10\",\"PrevClose\":\"1072.00\",\"Open\":\"1090.00\",\"High\":\"1111.25\",\"Low\":\"1060.00\",\"LTP\":\"1066.20\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 02:36:15 pm"
     },
     "544271|23 Oct 2026|Interim Dividend - Rs. - 0.0300": {
@@ -183,8 +235,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 0.0300",
       "dividend_per_share": 0.03,
-      "latest_price": 165.65,
-      "dividend_yield": 0.02,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=544271&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"165.65\",\"Chg\":\"+0.65\",\"PcChg\":\"+0.39\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Garuda Construction and Engineering Ltd\",\"ShortN\":\"garuda\",\"SeriesN\":\"Garuda Construction and Engineering Ltd\",\"SEOUrlEQ\":\"/stock-share-price/garuda-construction-and-engineering-ltd/garuda/544271/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/544271/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"544271\"},\"Header\":{\"Noticecnt\":\"5\",\"PrevClose\":\"165.00\",\"Open\":\"167.85\",\"High\":\"167.85\",\"Low\":\"163.10\",\"LTP\":\"165.65\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 02:36:15 pm"
     },
     "543257|23 Oct 2026|Interim Dividend - Rs. - 1.1500": {
@@ -194,8 +250,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 1.1500",
       "dividend_per_share": 1.15,
-      "latest_price": 80.3,
-      "dividend_yield": 1.43,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=543257&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"80.30\",\"Chg\":\"+1.30\",\"PcChg\":\"+1.65\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Indian Railway Finance Corporation Ltd\",\"ShortN\":\"irfc\",\"SeriesN\":\"Indian Railway Finance Corporation Ltd\",\"SEOUrlEQ\":\"/stock-share-price/indian-railway-finance-corporation-ltd/irfc/543257/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543257/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543257\"},\"Header\":{\"Noticecnt\":\"9\",\"PrevClose\":\"79.00\",\"Open\":\"79.02\",\"High\":\"81.00\",\"Low\":\"77.32\",\"LTP\":\"80.30\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 02:36:15 pm"
     },
     "532755|23 Oct 2026|Interim Dividend - Rs. - 15.0000": {
@@ -205,8 +265,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 15.0000",
       "dividend_per_share": 15,
-      "latest_price": 1788,
-      "dividend_yield": 0.84,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=532755&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"1788.00\",\"Chg\":\"+139.30\",\"PcChg\":\"+8.45\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Tech Mahindra Ltd\",\"ShortN\":\"techm\",\"SeriesN\":\"Tech Mahindra Ltd\",\"SEOUrlEQ\":\"/stock-share-price/tech-mahindra-ltd/techm/532755/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532755/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532755\"},\"Header\":{\"Noticecnt\":\"16\",\"PrevClose\":\"1648.70\",\"Open\":\"1714.95\",\"High\":\"1797.00\",\"Low\":\"1690.05\",\"LTP\":\"1788.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "15-Oct-2026 02:36:15 pm"
     },
     "542670|23 Oct 2026|Interim Dividend - Rs. - 0.0060": {
@@ -216,8 +280,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 0.0060",
       "dividend_per_share": 0.006,
-      "latest_price": 15,
-      "dividend_yield": 0.04,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=542670&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"15.00\",\"Chg\":\"-0.20\",\"PcChg\":\"-1.32\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Artemis Electricals and Projects Ltd\",\"ShortN\":\"aepl\",\"SeriesN\":\"Artemis Electricals and Projects Ltd\",\"SEOUrlEQ\":\"/stock-share-price/artemis-electricals-and-projects-ltd/aepl/542670/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/542670/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"542670\"},\"Header\":{\"Noticecnt\":\"5\",\"PrevClose\":\"15.20\",\"Open\":\"14.80\",\"High\":\"15.38\",\"Low\":\"14.80\",\"LTP\":\"15.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"ASM LT : Stage 1\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"https://www.bseindia.com/markets/equity/EQReports/additional_surveillance_measure.aspx\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "16-Oct-2026 04:13:02 am"
     },
     "540005|23 Oct 2026|Interim Dividend - Rs. - 25.0000": {
@@ -227,8 +295,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 25.0000",
       "dividend_per_share": 25,
-      "latest_price": 4385,
-      "dividend_yield": 0.57,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=540005&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"4385.00\",\"Chg\":\"+135.00\",\"PcChg\":\"+3.18\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"LTM Ltd\",\"ShortN\":\"ltm\",\"SeriesN\":\"LTM Ltd\",\"SEOUrlEQ\":\"/stock-share-price/ltm-ltd/ltm/540005/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/540005/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"540005\"},\"Header\":{\"Noticecnt\":\"18\",\"PrevClose\":\"4250.00\",\"Open\":\"4250.35\",\"High\":\"4417.75\",\"Low\":\"4209.95\",\"LTP\":\"4385.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "16-Oct-2026 02:05:34 pm"
     },
     "506261|23 Oct 2026|Interim Dividend - Rs. - 4.0000": {
@@ -238,8 +310,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 4.0000",
       "dividend_per_share": 4,
-      "latest_price": 502.55,
-      "dividend_yield": 0.8,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=506261&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"502.55\",\"Chg\":\"-26.45\",\"PcChg\":\"-5.00\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Modison Ltd-$\",\"ShortN\":\"modisonltd\",\"SeriesN\":\"Modison Ltd-$\",\"SEOUrlEQ\":\"/stock-share-price/modison-ltd-$/modisonltd/506261/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/506261/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"506261\"},\"Header\":{\"Noticecnt\":\"11\",\"PrevClose\":\"529.00\",\"Open\":\"524.95\",\"High\":\"555.00\",\"Low\":\"502.55\",\"LTP\":\"502.55\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"ASM LT : Stage 4\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"https://www.bseindia.com/markets/equity/EQReports/additional_surveillance_measure.aspx\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "16-Oct-2026 02:05:34 pm"
     },
     "533273|23 Oct 2026|Interim Dividend - Rs. - 2.0000": {
@@ -249,8 +325,12 @@
       "record_date": "23-Oct-2026",
       "purpose": "Interim Dividend - Rs. - 2.0000",
       "dividend_per_share": 2,
-      "latest_price": 1707.35,
-      "dividend_yield": 0.12,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=533273&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"1707.35\",\"Chg\":\"+3.85\",\"PcChg\":\"+0.23\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Oberoi Realty Ltd\",\"ShortN\":\"oberoirlty\",\"SeriesN\":\"Oberoi Realty Ltd\",\"SEOUrlEQ\":\"/stock-share-price/oberoi-realty-ltd/oberoirlty/533273/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/533273/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"533273\"},\"Header\":{\"Noticecnt\":\"11\",\"PrevClose\":\"1703.50\",\"Open\":\"1716.95\",\"High\":\"1720.20\",\"Low\":\"1692.40\",\"LTP\":\"1707.35\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "16-Oct-2026 02:05:34 pm"
     },
     "543228|02 Nov 2026|Interim Dividend": {
@@ -260,10 +340,14 @@
       "record_date": "02-Nov-2026",
       "purpose": "Interim Dividend",
       "dividend_per_share": null,
-      "latest_price": 449,
-      "dividend_yield": 0,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=543228&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"449.00\",\"Chg\":\"+11.45\",\"PcChg\":\"+2.62\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Route Mobile Ltd\",\"ShortN\":\"route\",\"SeriesN\":\"Route Mobile Ltd\",\"SEOUrlEQ\":\"/stock-share-price/route-mobile-ltd/route/543228/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543228/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543228\"},\"Header\":{\"Noticecnt\":\"6\",\"PrevClose\":\"437.55\",\"Open\":\"434.35\",\"High\":\"453.20\",\"Low\":\"432.20\",\"LTP\":\"449.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
       "first_seen": "16-Oct-2026 02:05:34 pm"
     }
   },
-  "last_checked": "17-Oct-2026 05:17:23 am"
+  "last_checked": "17-Oct-2026 09:34:33 am"
 }
