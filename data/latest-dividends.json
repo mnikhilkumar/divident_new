@@ -1,5 +1,5 @@
 {
-  "fetched_at": "18-Oct-2026 11:32:13 am",
+  "fetched_at": "18-Oct-2026 03:19:02 pm",
   "from_date": "20261018",
   "to_date": "20261217",
   "data": [
@@ -234,7 +234,7 @@
     {
       "scrip_code": "506261",
       "short_name": "MODISONLTD",
-      "long_name": "Modison Ltd-$",
+      "long_name": "Modison Ltd",
       "RD_Date": "23 Oct 2026",
       "Purpose": "Interim Dividend - Rs. - 4.0000",
       "BCRD_FROM": "",
@@ -340,7 +340,7 @@
       "latest_price": {
         "status": 200,
         "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=532424&Debtflag=&seriesid=",
-        "text": "{\"CurrRate\":{\"LTP\":\"855.50\",\"Chg\":\"-9.20\",\"PcChg\":\"-1.06\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Godrej Consumer Products Ltd\",\"ShortN\":\"godrejcp\",\"SeriesN\":\"Godrej Consumer Products Ltd\",\"SEOUrlEQ\":\"/stock-share-price/godrej-consumer-products-ltd/godrejcp/532424/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532424/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532424\"},\"Header\":{\"Noticecnt\":\"2\",\"PrevClose\":\"864.70\",\"Open\":\"860.00\",\"High\":\"860.20\",\"Low\":\"842.75\",\"LTP\":\"855.50\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+        "text": "{\"CurrRate\":{\"LTP\":\"855.50\",\"Chg\":\"-9.20\",\"PcChg\":\"-1.06\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Godrej Consumer Products Ltd\",\"ShortN\":\"godrejcp\",\"SeriesN\":\"Godrej Consumer Products Ltd\",\"SEOUrlEQ\":\"/stock-share-price/godrej-consumer-products-ltd/godrejcp/532424/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532424/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532424\"},\"Header\":{\"Noticecnt\":\"1\",\"PrevClose\":\"864.70\",\"Open\":\"860.00\",\"High\":\"860.20\",\"Low\":\"842.75\",\"LTP\":\"855.50\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"16 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
       },
       "dividend_per_share": null,
       "dividend_yield": null
