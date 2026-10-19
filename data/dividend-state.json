@@ -73,7 +73,7 @@
       "latest_price": {
         "status": 200,
         "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=532424&Debtflag=&seriesid=",
-        "text": "{\"CurrRate\":{\"LTP\":\"845.05\",\"Chg\":\"-10.45\",\"PcChg\":\"-1.22\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Godrej Consumer Products Ltd\",\"ShortN\":\"godrejcp\",\"SeriesN\":\"Godrej Consumer Products Ltd\",\"SEOUrlEQ\":\"/stock-share-price/godrej-consumer-products-ltd/godrejcp/532424/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532424/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532424\"},\"Header\":{\"Noticecnt\":\"1\",\"PrevClose\":\"855.50\",\"Open\":\"857.85\",\"High\":\"857.85\",\"Low\":\"843.20\",\"LTP\":\"845.05\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+        "text": "{\"CurrRate\":{\"LTP\":\"845.05\",\"Chg\":\"-10.45\",\"PcChg\":\"-1.22\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Godrej Consumer Products Ltd\",\"ShortN\":\"godrejcp\",\"SeriesN\":\"Godrej Consumer Products Ltd\",\"SEOUrlEQ\":\"/stock-share-price/godrej-consumer-products-ltd/godrejcp/532424/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/532424/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"532424\"},\"Header\":{\"Noticecnt\":\"2\",\"PrevClose\":\"855.50\",\"Open\":\"857.85\",\"High\":\"857.85\",\"Low\":\"843.20\",\"LTP\":\"845.05\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
       },
       "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
@@ -88,7 +88,7 @@
       "latest_price": {
         "status": 200,
         "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=544262&Debtflag=&seriesid=",
-        "text": "{\"CurrRate\":{\"LTP\":\"143.60\",\"Chg\":\"-2.10\",\"PcChg\":\"-1.44\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Manba Finance Ltd\",\"ShortN\":\"manba\",\"SeriesN\":\"Manba Finance Ltd\",\"SEOUrlEQ\":\"/stock-share-price/manba-finance-ltd/manba/544262/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/544262/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"544262\"},\"Header\":{\"Noticecnt\":\"5\",\"PrevClose\":\"145.70\",\"Open\":\"145.00\",\"High\":\"149.80\",\"Low\":\"143.55\",\"LTP\":\"143.60\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+        "text": "{\"CurrRate\":{\"LTP\":\"143.60\",\"Chg\":\"-2.10\",\"PcChg\":\"-1.44\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Manba Finance Ltd\",\"ShortN\":\"manba\",\"SeriesN\":\"Manba Finance Ltd\",\"SEOUrlEQ\":\"/stock-share-price/manba-finance-ltd/manba/544262/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/544262/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"544262\"},\"Header\":{\"Noticecnt\":\"7\",\"PrevClose\":\"145.70\",\"Open\":\"145.00\",\"High\":\"149.80\",\"Low\":\"143.55\",\"LTP\":\"143.60\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
       },
       "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
@@ -118,7 +118,7 @@
       "latest_price": {
         "status": 200,
         "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=543232&Debtflag=&seriesid=",
-        "text": "{\"CurrRate\":{\"LTP\":\"686.30\",\"Chg\":\"-13.70\",\"PcChg\":\"-1.96\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Computer Age Management Services Ltd\",\"ShortN\":\"cams\",\"SeriesN\":\"Computer Age Management Services Ltd\",\"SEOUrlEQ\":\"/stock-share-price/computer-age-management-services-ltd/cams/543232/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543232/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543232\"},\"Header\":{\"Noticecnt\":\"3\",\"PrevClose\":\"700.00\",\"Open\":\"700.00\",\"High\":\"700.00\",\"Low\":\"683.55\",\"LTP\":\"686.30\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+        "text": "{\"CurrRate\":{\"LTP\":\"686.30\",\"Chg\":\"-13.70\",\"PcChg\":\"-1.96\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Computer Age Management Services Ltd\",\"ShortN\":\"cams\",\"SeriesN\":\"Computer Age Management Services Ltd\",\"SEOUrlEQ\":\"/stock-share-price/computer-age-management-services-ltd/cams/543232/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/543232/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"543232\"},\"Header\":{\"Noticecnt\":\"4\",\"PrevClose\":\"700.00\",\"Open\":\"700.00\",\"High\":\"700.00\",\"Low\":\"683.55\",\"LTP\":\"686.30\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
       },
       "dividend_yield": null,
       "first_seen": "14-Oct-2026 01:14:30 pm"
@@ -328,7 +328,7 @@
       "latest_price": {
         "status": 200,
         "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=533273&Debtflag=&seriesid=",
-        "text": "{\"CurrRate\":{\"LTP\":\"1675.00\",\"Chg\":\"-32.35\",\"PcChg\":\"-1.89\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Oberoi Realty Ltd\",\"ShortN\":\"oberoirlty\",\"SeriesN\":\"Oberoi Realty Ltd\",\"SEOUrlEQ\":\"/stock-share-price/oberoi-realty-ltd/oberoirlty/533273/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/533273/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"533273\"},\"Header\":{\"Noticecnt\":\"12\",\"PrevClose\":\"1707.35\",\"Open\":\"1714.70\",\"High\":\"1724.00\",\"Low\":\"1667.15\",\"LTP\":\"1675.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+        "text": "{\"CurrRate\":{\"LTP\":\"1675.00\",\"Chg\":\"-32.35\",\"PcChg\":\"-1.89\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Oberoi Realty Ltd\",\"ShortN\":\"oberoirlty\",\"SeriesN\":\"Oberoi Realty Ltd\",\"SEOUrlEQ\":\"/stock-share-price/oberoi-realty-ltd/oberoirlty/533273/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/533273/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"533273\"},\"Header\":{\"Noticecnt\":\"13\",\"PrevClose\":\"1707.35\",\"Open\":\"1714.70\",\"High\":\"1724.00\",\"Low\":\"1667.15\",\"LTP\":\"1675.00\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
       },
       "dividend_yield": null,
       "first_seen": "16-Oct-2026 02:05:34 pm"
@@ -347,7 +347,67 @@
       },
       "dividend_yield": null,
       "first_seen": "16-Oct-2026 02:05:34 pm"
+    },
+    "500052|24 Oct 2026|Interim Dividend - Rs. - 1.0000": {
+      "scrip_code": "500052",
+      "short_name": "BEPL",
+      "long_name": "Bhansali Engineering Polymers Ltd-$",
+      "record_date": "24-Oct-2026",
+      "purpose": "Interim Dividend - Rs. - 1.0000",
+      "dividend_per_share": 1,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=500052&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"117.55\",\"Chg\":\"-10.95\",\"PcChg\":\"-8.52\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"Bhansali Engineering Polymers Ltd-$\",\"ShortN\":\"bepl\",\"SeriesN\":\"Bhansali Engineering Polymers Ltd-$\",\"SEOUrlEQ\":\"/stock-share-price/bhansali-engineering-polymers-ltd-$/bepl/500052/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/500052/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"500052\"},\"Header\":{\"Noticecnt\":\"11\",\"PrevClose\":\"128.50\",\"Open\":\"130.15\",\"High\":\"131.95\",\"Low\":\"115.15\",\"LTP\":\"117.55\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
+      "first_seen": "19-Oct-2026 06:40:14 pm"
+    },
+    "540115|27 Oct 2026|Interim Dividend - Rs. - 20.0000": {
+      "scrip_code": "540115",
+      "short_name": "LTTS",
+      "long_name": "L&T Technology Services Ltd",
+      "record_date": "27-Oct-2026",
+      "purpose": "Interim Dividend - Rs. - 20.0000",
+      "dividend_per_share": 20,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=540115&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"3609.80\",\"Chg\":\"-102.35\",\"PcChg\":\"-2.76\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"L&T Technology Services Ltd\",\"ShortN\":\"ltts\",\"SeriesN\":\"L&T Technology Services Ltd\",\"SEOUrlEQ\":\"/stock-share-price/l&t-technology-services-ltd/ltts/540115/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/540115/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"540115\"},\"Header\":{\"Noticecnt\":\"13\",\"PrevClose\":\"3712.15\",\"Open\":\"3712.10\",\"High\":\"3729.70\",\"Low\":\"3577.50\",\"LTP\":\"3609.80\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
+      "first_seen": "19-Oct-2026 06:40:14 pm"
+    },
+    "523367|30 Oct 2026|Interim Dividend": {
+      "scrip_code": "523367",
+      "short_name": "DCMSHRIRAM",
+      "long_name": "DCM Shriram Ltd",
+      "record_date": "30-Oct-2026",
+      "purpose": "Interim Dividend",
+      "dividend_per_share": null,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=523367&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"1000.40\",\"Chg\":\"-13.15\",\"PcChg\":\"-1.30\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"DCM Shriram Ltd\",\"ShortN\":\"dcmshriram\",\"SeriesN\":\"DCM Shriram Ltd\",\"SEOUrlEQ\":\"/stock-share-price/dcm-shriram-ltd/dcmshriram/523367/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/523367/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"523367\"},\"Header\":{\"Noticecnt\":\"7\",\"PrevClose\":\"1013.55\",\"Open\":\"1013.00\",\"High\":\"1047.85\",\"Low\":\"998.30\",\"LTP\":\"1000.40\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
+      "first_seen": "19-Oct-2026 06:40:14 pm"
+    },
+    "538646|06 Nov 2026|Interim Dividend": {
+      "scrip_code": "538646",
+      "short_name": "QGO",
+      "long_name": "QGO Finance Ltd",
+      "record_date": "06-Nov-2026",
+      "purpose": "Interim Dividend",
+      "dividend_per_share": null,
+      "latest_price": {
+        "status": 200,
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?scripcode=538646&Debtflag=&seriesid=",
+        "text": "{\"CurrRate\":{\"LTP\":\"40.52\",\"Chg\":\"-1.38\",\"PcChg\":\"-3.29\",\"D_Cpricelink\":\"\",\"IssueChgVal\":\"\",\"IssueChgPC\":\"\"},\"Cmpname\":{\"FullN\":\"QGO Finance Ltd\",\"ShortN\":\"qgo\",\"SeriesN\":\"QGO Finance Ltd\",\"SEOUrlEQ\":\"/stock-share-price/qgo-finance-ltd/qgo/538646/\",\"SEOUrlDR\":\"/stock-share-price/future-options/derivatives/538646/\",\"IsNotPropernFIT\":\"0\",\"Category\":\"Listed\",\"EquityScrips\":\"538646\"},\"Header\":{\"Noticecnt\":\"4\",\"PrevClose\":\"41.90\",\"Open\":\"45.50\",\"High\":\"45.50\",\"Low\":\"40.30\",\"LTP\":\"40.52\",\"DisplayText\":\"\",\"Category\":\"Listed\",\"PRE_OPEN_NO_BIDS\":null,\"PRE_OPEN_NO_I_PRICE\":null,\"PRE_OPEN_I_PRICE\":null,\"PRE_OPEN_I_PRICE_QTY\":null,\"PCAS_NO_BIDS\":null,\"PCAS_INDICATIVE_PRICE\":null,\"PCAS_INDICATIVE_QTY\":null,\"PERODIC_CALL_AUCTION\":null,\"GSMURL\":\"\",\"GSMText\":\"\",\"Invit\":\"0\",\"Ason\":\"19 Oct 26 | 16:00\",\"NAVRate\":\"\",\"NAVdttm\":\"\",\"ASMText\":\"\",\"SMSText\":\"\",\"IRPText\":\"\",\"ASMURL\":\"\",\"SMSURL\":\"https://www.bseindia.com/attention_investors.aspx\",\"IRPURL\":\"https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55\",\"IDB_DisplayText\":\"\",\"IsALF\":\"0\",\"EMSText\":\"\",\"EMSURL\":\"\"},\"CompResp\":{\"compRes\":null,\"texturl\":null}}"
+      },
+      "dividend_yield": null,
+      "first_seen": "19-Oct-2026 06:40:14 pm"
     }
   },
-  "last_checked": "19-Oct-2026 11:59:49 am"
+  "last_checked": "19-Oct-2026 06:40:14 pm"
 }
