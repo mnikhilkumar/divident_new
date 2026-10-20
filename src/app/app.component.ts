@@ -1,14 +1,14 @@
-<<<<<<< HEAD
-import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { BseDividendService, DividendCompany } from './bse-dividend.service';
 import { Subject, merge, interval, of } from 'rxjs';
-import { catchError, exhaustMap, startWith, takeUntil, tap } from 'rxjs/operators';
-=======
-import { Component, OnInit, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { BseDividendService, DividendCompany } from './bse-dividend.service';
->>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
+import {
+  catchError,
+  exhaustMap,
+  startWith,
+  takeUntil,
+  tap
+} from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -16,12 +16,12 @@ import { BseDividendService, DividendCompany } from './bse-dividend.service';
   imports: [CommonModule],
   templateUrl: './app.component.html'
 })
-<<<<<<< HEAD
 export class AppComponent implements OnInit, OnDestroy {
-=======
-export class AppComponent implements OnInit {
->>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
   private readonly service = inject(BseDividendService);
+  private readonly refresh$ = new Subject<void>();
+  private readonly destroy$ = new Subject<void>();
+
+  readonly refreshIntervalMs = 30 * 60 * 1000;
 
   dividends: DividendCompany[] = [];
   loading = false;
@@ -29,44 +29,51 @@ export class AppComponent implements OnInit {
   fromDate = '';
   toDate = '';
   lastUpdated = '';
-<<<<<<< HEAD
-  private readonly refresh$ = new Subject<void>();
-  private readonly destroy$ = new Subject<void>();
-  readonly refreshIntervalMs = 30 * 60 * 1000;
 
   ngOnInit(): void {
-    // Load immediately and then every 30 minutes. Manual refresh uses the same
-    // stream; exhaustMap prevents overlapping requests.
-    merge(interval(this.refreshIntervalMs), this.refresh$).pipe(
-      startWith(0),
-      tap(() => {
-        this.loading = true;
-        this.error = '';
-        this.updateDateRange();
-      }),
-      exhaustMap(() => this.service.getDividends(
-        this.formatApiDate(new Date()),
-        this.formatApiDate(this.datePlusDays(60))
-      ).pipe(
-        catchError(err => {
-          console.error('Dividend API error:', err);
-          this.error = err?.error?.error || 'Unable to load BSE dividend data.';
-          return of(null);
-        })
-      )),
-      takeUntil(this.destroy$)
-    ).subscribe(data => {
-      if (data !== null) {
-        this.dividends = data;
-        this.lastUpdated = this.formatDateTime(new Date());
-      }
-      this.loading = false;
-    });
+    // Load immediately, then every 30 minutes.
+    // Manual refresh uses the same stream.
+    // exhaustMap prevents overlapping API requests.
+    merge(interval(this.refreshIntervalMs), this.refresh$)
+      .pipe(
+        startWith(0),
+        tap(() => {
+          this.loading = true;
+          this.error = '';
+          this.updateDateRange();
+        }),
+        exhaustMap(() =>
+          this.service
+            .getDividends(
+              this.formatApiDate(new Date()),
+              this.formatApiDate(this.datePlusDays(60))
+            )
+            .pipe(
+              catchError(err => {
+                console.error('Dividend API error:', err);
+                this.error =
+                  err?.error?.error ||
+                  'Unable to load BSE dividend data.';
+                return of(null);
+              })
+            )
+        ),
+        takeUntil(this.destroy$)
+      )
+      .subscribe(data => {
+        if (data !== null) {
+          this.dividends = data;
+          this.lastUpdated = this.formatDateTime(new Date());
+        }
+
+        this.loading = false;
+      });
   }
 
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();
+
     this.refresh$.complete();
   }
 
@@ -76,6 +83,7 @@ export class AppComponent implements OnInit {
 
   private updateDateRange(): void {
     const today = new Date();
+
     this.fromDate = this.formatDisplayDate(today);
     this.toDate = this.formatDisplayDate(this.datePlusDays(60));
   }
@@ -84,44 +92,6 @@ export class AppComponent implements OnInit {
     const date = new Date();
     date.setDate(date.getDate() + days);
     return date;
-=======
-
-  ngOnInit(): void {
-    this.loadDividends();
-  }
-
-  loadDividends(): void {
-    this.loading = true;
-    this.error = '';
-
-    const today = new Date();
-    const end = new Date(today);
-    end.setDate(end.getDate() + 60);
-
-    this.fromDate = this.formatDisplayDate(today);
-    this.toDate = this.formatDisplayDate(end);
-
-    const fromApi = this.formatApiDate(today);
-    const toApi = this.formatApiDate(end);
-
-    this.service.getDividends(fromApi, toApi).subscribe({
-      next: data => {
-        this.dividends = data;
-        this.loading = false;
-        this.lastUpdated = this.formatDateTime(new Date());
-      },
-      error: err => {
-        console.error('Dividend API error:', err);
-        this.dividends = [];
-        this.loading = false;
-        this.error = err?.error?.error || 'Unable to load BSE dividend data.';
-      }
-    });
-  }
-
-  refresh(): void {
-    this.loadDividends();
->>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
   }
 
   trackByCode(index: number, company: DividendCompany): string {
@@ -129,7 +99,11 @@ export class AppComponent implements OnInit {
   }
 
   formatPrice(price: number | null | undefined): string {
-    if (price === null || price === undefined || !Number.isFinite(Number(price))) {
+    if (
+      price === null ||
+      price === undefined ||
+      !Number.isFinite(Number(price))
+    ) {
       return '-';
     }
 
@@ -140,7 +114,11 @@ export class AppComponent implements OnInit {
   }
 
   formatDividend(value: number | null | undefined): string {
-    if (value === null || value === undefined || !Number.isFinite(Number(value))) {
+    if (
+      value === null ||
+      value === undefined ||
+      !Number.isFinite(Number(value))
+    ) {
       return '-';
     }
 
@@ -148,7 +126,11 @@ export class AppComponent implements OnInit {
   }
 
   formatYield(value: number | null | undefined): string {
-    if (value === null || value === undefined || !Number.isFinite(Number(value))) {
+    if (
+      value === null ||
+      value === undefined ||
+      !Number.isFinite(Number(value))
+    ) {
       return '-';
     }
 
@@ -156,7 +138,11 @@ export class AppComponent implements OnInit {
   }
 
   yieldClass(value: number | null | undefined): string {
-    if (value === null || value === undefined || !Number.isFinite(Number(value))) {
+    if (
+      value === null ||
+      value === undefined ||
+      !Number.isFinite(Number(value))
+    ) {
       return 'yield-none';
     }
 
@@ -165,6 +151,7 @@ export class AppComponent implements OnInit {
     if (n >= 5) return 'yield-high';
     if (n >= 1) return 'yield-medium';
     if (n >= 0.1) return 'yield-low';
+
     return 'yield-very-low';
   }
 
@@ -181,11 +168,15 @@ export class AppComponent implements OnInit {
       );
     }
 
-    const match = text.match(/^([0-9]{1,2})[\s\/-]+([A-Za-z]{3,9}|[0-9]{1,2})[\s\/-]+([0-9]{4})/);
+    const match = text.match(
+      /^([0-9]{1,2})[\/-]+([A-Za-z]{3,9}|[0-9]{1,2})[\/-]+([0-9]{4})/
+    );
+
     if (match) {
       const day = Number(match[1]);
       const year = Number(match[3]);
       const monthValue = match[2];
+
       const month = /^\d+$/.test(monthValue)
         ? Number(monthValue)
         : this.monthNumber(monthValue);
@@ -202,6 +193,7 @@ export class AppComponent implements OnInit {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
+
     return `${year}${month}${day}`;
   }
 
@@ -213,21 +205,36 @@ export class AppComponent implements OnInit {
     );
   }
 
-  private makeDisplayDate(year: number, month: number, day: number): string {
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  private makeDisplayDate(
+    year: number,
+    month: number,
+    day: number
+  ): string {
+    const months = [
+      'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+      'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+    ];
+
     return `${String(day).padStart(2, '0')}-${months[month - 1]}-${year}`;
   }
 
   private monthNumber(value: string): number {
-    const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+    const months = [
+      'jan', 'feb', 'mar', 'apr', 'may', 'jun',
+      'jul', 'aug', 'sep', 'oct', 'nov', 'dec'
+    ];
+
     return months.indexOf(value.slice(0, 3).toLowerCase()) + 1;
   }
 
   private formatDateTime(date: Date): string {
-    return `${this.formatDisplayDate(date)} ${date.toLocaleTimeString('en-IN', {
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit'
-    })}`;
+    return `${this.formatDisplayDate(date)} ${date.toLocaleTimeString(
+      'en-IN',
+      {
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      }
+    )}`;
   }
 }
