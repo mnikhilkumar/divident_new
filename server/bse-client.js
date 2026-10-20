@@ -400,6 +400,18 @@ async function fetchQuote(scripcode, symbol) {
     console.warn(`Price unavailable for ${code} (${symbol || 'no symbol'})`);
   }
 
+  console.log('Price lookup:', {
+  scripcode,
+  symbol,
+  bsePrice: price
+});
+
+console.log('Final price:', {
+  scripcode,
+  symbol,
+  price
+});
+
   return price;
 }
 
