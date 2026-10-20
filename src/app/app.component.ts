@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BseDividendService, DividendCompany } from './bse-dividend.service';
 import { Subject, merge, interval, of } from 'rxjs';
 import { catchError, exhaustMap, startWith, takeUntil, tap } from 'rxjs/operators';
+=======
+import { Component, OnInit, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { BseDividendService, DividendCompany } from './bse-dividend.service';
+>>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
 
 @Component({
   selector: 'app-root',
@@ -10,7 +16,11 @@ import { catchError, exhaustMap, startWith, takeUntil, tap } from 'rxjs/operator
   imports: [CommonModule],
   templateUrl: './app.component.html'
 })
+<<<<<<< HEAD
 export class AppComponent implements OnInit, OnDestroy {
+=======
+export class AppComponent implements OnInit {
+>>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
   private readonly service = inject(BseDividendService);
 
   dividends: DividendCompany[] = [];
@@ -19,6 +29,7 @@ export class AppComponent implements OnInit, OnDestroy {
   fromDate = '';
   toDate = '';
   lastUpdated = '';
+<<<<<<< HEAD
   private readonly refresh$ = new Subject<void>();
   private readonly destroy$ = new Subject<void>();
   readonly refreshIntervalMs = 30 * 60 * 1000;
@@ -73,6 +84,44 @@ export class AppComponent implements OnInit, OnDestroy {
     const date = new Date();
     date.setDate(date.getDate() + days);
     return date;
+=======
+
+  ngOnInit(): void {
+    this.loadDividends();
+  }
+
+  loadDividends(): void {
+    this.loading = true;
+    this.error = '';
+
+    const today = new Date();
+    const end = new Date(today);
+    end.setDate(end.getDate() + 60);
+
+    this.fromDate = this.formatDisplayDate(today);
+    this.toDate = this.formatDisplayDate(end);
+
+    const fromApi = this.formatApiDate(today);
+    const toApi = this.formatApiDate(end);
+
+    this.service.getDividends(fromApi, toApi).subscribe({
+      next: data => {
+        this.dividends = data;
+        this.loading = false;
+        this.lastUpdated = this.formatDateTime(new Date());
+      },
+      error: err => {
+        console.error('Dividend API error:', err);
+        this.dividends = [];
+        this.loading = false;
+        this.error = err?.error?.error || 'Unable to load BSE dividend data.';
+      }
+    });
+  }
+
+  refresh(): void {
+    this.loadDividends();
+>>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
   }
 
   trackByCode(index: number, company: DividendCompany): string {

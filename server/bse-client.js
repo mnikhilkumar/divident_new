@@ -181,6 +181,7 @@ async function fetchBseQuote(scripcode) {
     }
   });
 
+<<<<<<< HEAD
   const text = await response.text();
   if (!response.ok) {
     throw new Error(`BSE quote API returned HTTP ${response.status}: ${text.slice(0, 180)}`);
@@ -199,6 +200,40 @@ async function fetchBseQuote(scripcode) {
   // Return a numeric quote, not the HTTP response object.
   const price = findPriceDeep(json);
   return Number.isFinite(price) && price > 0 ? price : null;
+=======
+const text = await response.text();
+
+if (!response.ok) {
+  console.error('BSE API request failed:', {
+    status: response.status,
+    url: response.url || targetUrl,
+    contentType: response.headers.get('content-type'),
+    body: text.slice(0, 500)
+  });
+
+  throw new Error(
+    `BSE API returned HTTP ${response.status}: ${text.slice(0, 180)}`
+  );
+}
+
+if (isHtmlResponse(text)) {
+  throw new Error(
+    `BSE returned HTML instead of JSON: ${text.slice(0, 180)}`
+  );
+}
+
+const parsed = fromJson(text);
+
+if (parsed.length === 0) {
+  console.warn('BSE response contained no recognized dividend rows.');
+}
+
+return {
+  status: response.status,
+  url: response.url || targetUrl,
+  text
+};
+>>>>>>> b9cfa2cdc554b52093af796c2690dea225f1dad4
 }
 
 async function fetchYahooQuote(symbol) {
