@@ -1,6 +1,0 @@
-node_modules/
-.angular/
-dist/
-*.log
-.env
-.DS_Store
